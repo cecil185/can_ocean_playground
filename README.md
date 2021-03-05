@@ -2,4 +2,8 @@
 Nova Scotia Open Data Contest 2021 Submission
 by Cecil Ash & Julia Sarty
 
-Running this app requires installing streamlit using “pip install streamlit” then running “streamlit run app.py” which will open a tab in your internet browser.
+The main code is in file "app.py".
+
+Running the app locally requires installing streamlit using terminal commands “pip install streamlit” and “streamlit run app.py”. The second terminal command will open a tab in your internet browser with the app.
+
+The app can be hosted on the internet at a designated URL. We are currently on a waiting list to do this.
