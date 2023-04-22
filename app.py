@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-from streamlit import caching
 
 def main():
     st.header('Keeping Nova Scotian Businesses Running Safely')
@@ -14,7 +13,6 @@ def main():
 
 # IF PPE IS SELECTED IN SIDE BAR
 def ppe():
-    caching.clear_cache()
     file_path = "PPE Supplier Encoded.xlsx" #Excel file with PPE suppliers
     data = pd.read_excel(file_path)
 
@@ -79,7 +77,6 @@ def ppe():
 
 #IF HIRE IS SELECTED IN SIDE BAR
 def hire():
-    caching.clear_cache()
     
     df = pd.read_csv("NSW_Locations.csv")
 
