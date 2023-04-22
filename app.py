@@ -6,6 +6,8 @@ def main():
     st.header('Keeping Nova Scotian Businesses Running Safely')
     st.image('img/lighthouse.jpg', use_column_width=True)
     #Side bar
+    url = "https://cecils-website.onrender.com"
+    st.sidebar.write("[Link to Cecil's Website](%s)" % url)
     st.sidebar.title("Search Options")
     app_mode = st.sidebar.selectbox("Select topic", ["Purchasing PPE", "Managing Labor"])
     if app_mode == "Purchasing PPE": ppe()
